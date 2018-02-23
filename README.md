@@ -4,11 +4,11 @@
 
 ![Exercism的社区互动性](./img/exercism.jpg)
 
-在Exercism上和世界各地的小伙伴们愉快地玩耍了十来天之后，我觉得可以为这个社区贡献些什么。由于我比较擅长 Python，所以决定为 [exercism/python](https://github.com/exercism/python) 这个仓库贡献代码。然而呢，当时的我一直处于大多数Github新手可能经历过的状态--一个人默默维护自己的仓库，却始终没有和他人互动乃至协作过，我将之称为在“单机模式”下使用Github（来自FPS发烧友的手动滑稽）。
+在 Exercism 上和世界各地的小伙伴们愉快地玩耍了十来天之后，我觉得可以为这个社区贡献些什么。由于我比较擅长 Python，所以决定为 [exercism/python](https://github.com/exercism/python) 这个仓库贡献代码。然而呢，当时的我一直处于大多数 Github 新手可能经历过的状态--一个人默默维护自己的仓库，却始终没有和他人互动乃至协作过，我将之称为在“单机模式”下使用 Github。
 
-但是呢，接下来的二十多天里，我一路刷怪升级，一步一步的踏入了开源世界，打开了新世界的大门！开始了“联机”使用Github的征途。
+但是呢，接下来的二十多天里，我一路刷怪升级，一步一步的踏入了开源世界，打开了新世界的大门！开始了“联机”使用 Github 的征途。
 
-所以呢，我想将这份来之不易的甚至让人欣喜的经验贡献给大家，希望能够帮助像二十多天前的我一样的Github新手们或者更多想进入开源世界却无从下手的小伙伴们无缝打开新世界的大门！
+所以呢，我想将这份来之不易的甚至让人欣喜的经验贡献给大家，希望能够帮助像二十多天前的我一样的 Github 新手们或者更多想进入开源世界却无从下手的小伙伴们无缝打开新世界的大门！
 
 接下里，我将对应 [GitHub Flow](https://guides.github.com/introduction/flow/) 手把手教会你怎么提交 Pull Request（下面简称 PR ）。
 
@@ -22,16 +22,16 @@
 
 ## 找到想要贡献的仓库
 
-通常，一开始刚初入Github的小伙伴了大多还没有自己心仪的可贡献的仓库，你可以通过Github的Explore功能去寻找自己感兴趣的项目。
+通常，一开始刚初入 Github 的小伙伴了大多还没有自己心仪的可贡献的仓库，你可以通过 Github 的 Explore 功能去寻找自己感兴趣的项目。
 
-![Explore 功能](http://upload-images.jianshu.io/upload_images/1144110-1547ad439fb3ab81.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Explore 功能](./img/explore.png)
 
 然后选择自己喜欢或擅长的编程语言。
 
-![喜欢或擅长的编程语言](http://upload-images.jianshu.io/upload_images/1144110-69b969ddcfc89a16.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![喜欢或擅长的编程语言](./img/explore-project.png)
 
 
-但是，我们希望能手把手教会你如何PR，所以即时练习是个好主意，这里我给小伙伴们提供一个供大家练手的[仓库](https://github.com/mRcfps)。小主这里对大家善意的PR来者不拒哦~
+但是，我们希望能手把手教会你如何PR，所以即时练习是个好主意，这里我给小伙伴们提供一个供大家练手的[仓库](https://github.com/mRcfps)。小主这里对大家善意的 PR 来者不拒哦~
 
 ## 寻找值得解决的 Issue
 
