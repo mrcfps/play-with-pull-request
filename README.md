@@ -1,18 +1,37 @@
 # GitHub 从单机到联机：玩转 Pull Request
 
-最近在参与一个叫 [Exercism](http://exercism.io/) 的项目，这是一个由 GitHub 生态工程师 Katrina Owen 发起的编程练习社区，提供了超过50门语言的练习。作为用户，你仅需使用命令行工具即可下载和提交练习，提交后还可以和社区中其他学习者交流讨论。
+最近在参与一个叫 [Exercism](http://exercism.io/) 的项目，这是一个由 [GitHub](https://github.com/) 生态工程师 Katrina Owen 发起的编程练习社区，提供了超过50门语言的练习。作为用户，你仅需使用命令行工具即可下载和提交练习，提交后还可以和社区中其他学习者交流讨论。
 
 ![Exercism的社区互动性](./img/exercism.jpg)
 
-在和世界各地的小伙伴们愉快地玩耍了十来天之后，我觉得可以为这个社区贡献些什么。由于我比较擅长 Python，所以决定为 [exercism/python](https://github.com/exercism/python) 这个仓库贡献代码。我知道很多朋友都是在“单机模式”下使用 GitHub ——一个人默默地维护自己的仓库，却始终没有和他人互动乃至协作过。接下来我将分享第一次踏入开源世界、“联机”使用 GitHub 的体验，并将对应 [GitHub Flow](https://guides.github.com/introduction/flow/) 手把手教会你怎么提交 Pull Request（下面简称 PR ）。
+在Exercism上和世界各地的小伙伴们愉快地玩耍了十来天之后，我觉得可以为这个社区贡献些什么。由于我比较擅长 Python，所以决定为 [exercism/python](https://github.com/exercism/python) 这个仓库贡献代码。然而呢，当时的我一直处于大多数Github新手可能经历过的状态--一个人默默维护自己的仓库，却始终没有和他人互动乃至协作过，我将之称为在“单机模式”下使用Github（来自FPS发烧友的手动滑稽）。
+
+但是呢，接下来的二十多天里，我一路刷怪升级，一步一步的踏入了开源世界，打开了新世界的大门！开始了“联机”使用Github的征途。
+
+所以呢，我想将这份来之不易的甚至让人欣喜的经验贡献给大家，希望能够帮助像二十多天前的我一样的Github新手们或者更多想进入开源世界却无从下手的小伙伴们无缝打开新世界的大门！
+
+接下里，我将对应 [GitHub Flow](https://guides.github.com/introduction/flow/) 手把手教会你怎么提交 Pull Request（下面简称 PR ）。
 
 在阅读本文前，希望你已经具备以下条件：
 
 1. 已经安装好 Git，能够用命令行进行基本的 Git 操作。如果不熟悉 Git，你可以看一下[廖雪峰的 Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)；如果你对自己的英文有自信，那么 [Learn Git Branching](https://learngitbranching.js.org/) 这个互动教程一定会让你受益更多！
 
-2. 已经注册一个 GitHub 帐号，并对 GitHub 的一些基本概念（例如仓库，Issue，还有我们讨论的核心 PR）有所了解。
+2. 已经注册一个 [GitHub](https://github.com/)  帐号，并对 GitHub 的一些基本概念（例如仓库，Issue，还有我们讨论的核心 PR）有所了解。
 
 3. 拥有一颗在开源社区呼风唤雨的雄心壮志（手动滑稽）。
+
+## 找到想要贡献的仓库
+
+通常，一开始刚初入Github的小伙伴了大多还没有自己心仪的可贡献的仓库，你可以通过Github的Explore功能去寻找自己感兴趣的项目。
+
+![Explore 功能](http://upload-images.jianshu.io/upload_images/1144110-1547ad439fb3ab81.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+然后选择自己喜欢或擅长的编程语言。
+
+![喜欢或擅长的编程语言](http://upload-images.jianshu.io/upload_images/1144110-69b969ddcfc89a16.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+但是，我们希望能手把手教会你如何PR，所以即时练习是个好主意，这里我给小伙伴们提供一个供大家练手的[仓库](https://github.com/mRcfps)。小主这里对大家善意的PR来者不拒哦~
 
 ## 寻找值得解决的 Issue
 
@@ -249,15 +268,17 @@ $ git push
 
 可能步骤有点复杂，所以这里总结一下 Pull Request 的生命周期 ：
 
-1. 确定要贡献的项目，寻找值得解决的 Issue。
+1. 确定要贡献的项目。
 
-2. 将原仓库 Fork 到自己的帐号下，然后克隆到本地。
+2. 寻找值得解决的 Issue。
+
+3. 将原仓库 Fork 到自己的帐号下，然后克隆到本地。
 
 ```bash
 $ git clone https://github.com/<YOUR_USERNAME>/<FORKED_REPO>.git
 ```
 
-3. 开启新分支，修改代码并提交。
+4. 开启新分支，修改代码并提交。
 
 ```bash
 $ git checkout -b <NEW_BRANCH_NAME>
@@ -266,14 +287,13 @@ $ git commit -m "<COMMIT_MESSAGE>"
 $ git push -u origin <NEW_BRANCH_NAME>
 ```
 
-4. 打开仓库的 GitHub 页面，点击提示的 Compare & pull request 按钮，填写 PR 信息（记得使用 GitHub 关键词关闭对应的 Issue）然后提交。
+5. 打开仓库的 GitHub 页面，点击提示的 Compare & pull request 按钮，填写 PR 信息（记得使用 GitHub 关键词关闭对应的 Issue）然后提交。
 
-5. 如果 CI 测试未通过，或者仓库维护者要求修改（request changes），那么就在本地继续修改代码，然后 `git push` 再次提交，直到通过 CI 和仓库维护者的评审。
+6. 如果 CI 测试未通过，或者仓库维护者要求修改（request changes），那么就在本地继续修改代码，然后 `git push` 再次提交，直到通过 CI 和仓库维护者的评审。
 
-6. 仓库维护者部署和并入你的分支，贡献完成。
+7. 仓库维护者部署和并入你的分支，贡献完成。
 
 ## 亲自实践
 
 这篇文章的 GitHub 仓库在[这里](https://github.com/mRcfps/play-with-pull-request)，你可以随意地发起 Issue 或 Pull Request。如果你只是想要亲自实践一下上面所讲的内容，就请在 [THOUGHTS.md](https://github.com/mRcfps/play-with-pull-request/blob/master/THOUGHTS.md) 中随意写下你的想法并提交给我，我会尽快合并你的分支。当然如果你对本文有改进意见，那更欢迎你的 Pull Request，让这篇文章变得更好！
-
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">知识共享署名-非商业性使用-禁止演绎 3.0 未本地化版本许可协议</a>进行许可。
