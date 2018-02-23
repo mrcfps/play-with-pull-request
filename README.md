@@ -100,7 +100,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 好的，然后我们进行 commit：
 
 ```bash
-$ git commit -am "rational-numbers: implement exercise"
+$ git add .
+$ git commit -m "rational-numbers: implement exercise"
 ```
 
 ## 提交工作
@@ -140,7 +141,8 @@ $ git push -u origin impl-rational-numbers
 按照他的建议修改好之后，我们提交新的修改。
 
 ```bash
-$ git commit -am "rational-numbers: fix topics in config.json"
+$ git add .
+$ git commit -m "rational-numbers: fix topics in config.json"
 $ git push
 ```
 
@@ -259,7 +261,8 @@ $ git clone https://github.com/<YOUR_USERNAME>/<FORKED_REPO>.git
 
 ```bash
 $ git checkout -b <NEW_BRANCH_NAME>
-$ git commit -am "<COMMIT_MESSAGE>"
+$ git add .
+$ git commit -m "<COMMIT_MESSAGE>"
 $ git push -u origin <NEW_BRANCH_NAME>
 ```
 
