@@ -18,7 +18,7 @@
 
 通常，贡献的第一步是寻找值得解决的 Issue。选择正确的 Issue 并不简单，除了力所能及，还要看一下有没有人已经在解决这个问题。你可以看一下这个 Issue 是否有人已经回复打算解决，或者在 Pull Requests 列表中搜索一下有没有人已经在解决，否则真的就是在浪费宝贵的时间。
 
-![选择合适的 Issue](./img/issue.png)
+![选择合适的 Issue](./img/Issue.png)
 
 这里我们选择解决 rational-numbers: implement exercise，任务就是实现一个新的练习，名为 rational-numbers。之所以选择这个 Issue，是因为仓库维护者很认真地把实现新练习的详细步骤都告诉了我们，而且也没有其他人领这个任务。于是我们回复一句“I'll work on this”，既是通知维护者，也是告诉其他人我们已经负责解决这个 Issue，请不要重复劳动。
 
