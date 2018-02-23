@@ -271,3 +271,7 @@ $ git push -u origin <NEW_BRANCH_NAME>
 5. 如果 CI 测试未通过，或者仓库维护者要求修改（request changes），那么就在本地继续修改代码，然后 `git push` 再次提交，直到通过 CI 和仓库维护者的评审。
 
 6. 仓库维护者部署和并入你的分支，贡献完成。
+
+## 亲自实践
+
+这篇文章的 GitHub 仓库在[这里](https://github.com/mRcfps/play-with-pull-request)，你可以随意地发起 Issue 或 Pull Request。如果你只是想要亲自实践一下上面所讲的内容，就请在 [THOUGHTS.md](https://github.com/mRcfps/play-with-pull-request/blob/master/THOUGHTS.md) 中随意写下你的想法并提交给我，我会尽快合并你的分支。当然如果你对本文有改进意见，那更欢迎你的 Pull Request，让这篇文章变得更好！
