@@ -6,3 +6,4 @@ this is the second request.
 由于我的第二个pull request 用的是还是原来的分支(issue1)
 就出现无法提交pull request的情况
 看了你的讲解，应该每次都开新的 issue 分支
+Try
