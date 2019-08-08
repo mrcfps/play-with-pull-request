@@ -7,4 +7,6 @@ this is the second request.
 就出现无法提交pull request的情况
 看了你的讲解，应该每次都开新的 issue 分支
 Try
-Duter：第一个pull Request
+Duter：第一个pull Requests
+
+可以记录下各个方向新手入门推荐的一些书
