@@ -1,4 +1,4 @@
-# GitHub 从单机到联机：玩转 Pull Request
+# GitHub 从单机到联机：玩转 PULL REQUESTS
 
 最近在参与一个叫 [Exercism](http://exercism.io/) 的项目，这是一个由 GitHub 生态工程师 Katrina Owen 发起的编程练习社区，提供了超过50门语言的练习。作为用户，你仅需使用命令行工具即可下载和提交练习，提交后还可以和社区中其他学习者交流讨论。
 
