@@ -8,6 +8,6 @@ this is the second request.
 看了你的讲解，应该每次都开新的 issue 分支
 Try
 Duter：第一个pull Requests
-
+Songqh：第一个pull Requests
 可以记录下各个方向新手入门推荐的一些书。
 比如算法入门：算法导论
